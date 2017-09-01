@@ -10,8 +10,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Freeer336x280.jpg?1504144232721", id:"Freeer336x280"},
-		{src:"images/HTML5rastershad.png?1504144232721", id:"HTML5rastershad"}
+		{src:"images/Freeer336x280.jpg?1504302704956", id:"Freeer336x280"},
+		{src:"images/HTML5rastershad.png?1504302704956", id:"HTML5rastershad"}
 	]
 };
 
@@ -611,7 +611,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	// com
 	this.instance = new lib.comhoriz();
 	this.instance.parent = this;
-	this.instance.setTransform(385,53.9,0.687,0.687,0,0,0,0,4.5);
+	this.instance.setTransform(390,53.9,0.687,0.687,0,0,0,0,4.5);
 	this.instance._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(179).to({_off:false},0).to({_off:true},1).wait(1));
@@ -619,7 +619,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	// ncua
 	this.instance_1 = new lib.ncuahorizai();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(220,51.2,1.11,1.11,0,0,0,0,3.6);
+	this.instance_1.setTransform(225,51.2,1.11,1.11,0,0,0,0,3.6);
 	this.instance_1._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(179).to({_off:false},0).to({_off:true},1).wait(1));
