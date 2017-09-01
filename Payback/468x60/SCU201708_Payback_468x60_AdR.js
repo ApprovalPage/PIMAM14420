@@ -10,8 +10,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HTML5rastershad.png?1504051936929", id:"HTML5rastershad"},
-		{src:"images/Payback336x280.jpg?1504051936929", id:"Payback336x280"}
+		{src:"images/HTML5rastershad.png?1504304916106", id:"HTML5rastershad"},
+		{src:"images/Payback336x280.jpg?1504304916106", id:"Payback336x280"}
 	]
 };
 
@@ -633,7 +633,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	// com
 	this.instance = new lib.comhoriz();
 	this.instance.parent = this;
-	this.instance.setTransform(367,53.9,0.687,0.687,0,0,0,0,4.5);
+	this.instance.setTransform(382,53.9,0.687,0.687,0,0,0,0,4.5);
 	this.instance._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(180).to({_off:false},0).to({_off:true},1).wait(1));
@@ -641,7 +641,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	// ncua
 	this.instance_1 = new lib.ncuahorizai();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(217,51.2,1.11,1.11,0,0,0,0,3.6);
+	this.instance_1.setTransform(232,51.2,1.11,1.11,0,0,0,0,3.6);
 	this.instance_1._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(180).to({_off:false},0).to({_off:true},1).wait(1));
