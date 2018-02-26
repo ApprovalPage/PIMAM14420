@@ -669,7 +669,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/inner_300x600.jpg?1519415121439", id:"inner_300x600"}
+		{src:"images/inner_300x600.jpg?1519678362365", id:"inner_300x600"}
 	],
 	preloads: []
 };
