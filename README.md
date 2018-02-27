@@ -1,2 +1,2 @@
-# SCU-2017-08
-Consumer html5 banners
+# PIMAM14420
+Pharmacy Technician html5 banners
