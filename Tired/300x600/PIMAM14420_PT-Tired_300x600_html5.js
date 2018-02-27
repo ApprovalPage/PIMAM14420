@@ -687,10 +687,10 @@ p.nominalBounds = new cjs.Rectangle(-67.7,-0.1,135.5,24.7);
 	// SUB
 	this.instance_1 = new lib.SUB();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(150.5,364,1,1,0,0,0,141.5,12);
+	this.instance_1.setTransform(442.5,364,1,1,0,0,0,141.5,12);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(34).to({_off:false},0).to({_off:true},38).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(29).to({_off:false},0).to({x:150.5},5,cjs.Ease.get(1)).to({_off:true},38).wait(1));
 
 	// RULE
 	this.shape = new cjs.Shape();
@@ -766,7 +766,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/tired_300x600.jpg?1519689360294", id:"tired_300x600"}
+		{src:"images/tired_300x600.jpg?1519753303478", id:"tired_300x600"}
 	],
 	preloads: []
 };
